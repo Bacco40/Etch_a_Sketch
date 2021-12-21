@@ -46,7 +46,7 @@ function multicolor(divs){
 hover(divs);
 const clear=document.querySelector('#clear');
 const black=document.querySelector('#black');
-const rainbow=document.querySelector('#rainbow')
+const rainbow=document.querySelector('#rainbow');
 
 clear.addEventListener('click',()=>{ 
         let newSize = prompt ("insert the new grid size",16);
